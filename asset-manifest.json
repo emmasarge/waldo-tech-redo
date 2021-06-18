@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/waldo-tech-redo/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/waldo-tech-redo/static/js/main.74b60f85.chunk.js",
-    "main.js.map": "/waldo-tech-redo/static/js/main.74b60f85.chunk.js.map",
-    "runtime-main.js": "/waldo-tech-redo/static/js/runtime-main.8d65723e.js",
-    "runtime-main.js.map": "/waldo-tech-redo/static/js/runtime-main.8d65723e.js.map",
-    "static/js/2.e369e43b.chunk.js": "/waldo-tech-redo/static/js/2.e369e43b.chunk.js",
-    "static/js/2.e369e43b.chunk.js.map": "/waldo-tech-redo/static/js/2.e369e43b.chunk.js.map",
-    "static/js/3.120454a3.chunk.js": "/waldo-tech-redo/static/js/3.120454a3.chunk.js",
-    "static/js/3.120454a3.chunk.js.map": "/waldo-tech-redo/static/js/3.120454a3.chunk.js.map",
+    "main.css": "/waldo-tech-redo/static/css/main.0a27029b.chunk.css",
+    "main.js": "/waldo-tech-redo/static/js/main.5db2e55f.chunk.js",
+    "main.js.map": "/waldo-tech-redo/static/js/main.5db2e55f.chunk.js.map",
+    "runtime-main.js": "/waldo-tech-redo/static/js/runtime-main.8cf7b090.js",
+    "runtime-main.js.map": "/waldo-tech-redo/static/js/runtime-main.8cf7b090.js.map",
+    "static/js/2.f0fb4c26.chunk.js": "/waldo-tech-redo/static/js/2.f0fb4c26.chunk.js",
+    "static/js/2.f0fb4c26.chunk.js.map": "/waldo-tech-redo/static/js/2.f0fb4c26.chunk.js.map",
+    "static/js/3.dced7aa7.chunk.js": "/waldo-tech-redo/static/js/3.dced7aa7.chunk.js",
+    "static/js/3.dced7aa7.chunk.js.map": "/waldo-tech-redo/static/js/3.dced7aa7.chunk.js.map",
     "index.html": "/waldo-tech-redo/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/waldo-tech-redo/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.e369e43b.chunk.js.LICENSE.txt": "/waldo-tech-redo/static/js/2.e369e43b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/waldo-tech-redo/static/media/logo.6ce24c58.svg"
+    "static/css/main.0a27029b.chunk.css.map": "/waldo-tech-redo/static/css/main.0a27029b.chunk.css.map",
+    "static/js/2.f0fb4c26.chunk.js.LICENSE.txt": "/waldo-tech-redo/static/js/2.f0fb4c26.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/waldo-tech-redo/static/media/fslola-medium-webfont.ba155df5.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d65723e.js",
-    "static/js/2.e369e43b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.74b60f85.chunk.js"
+    "static/js/runtime-main.8cf7b090.js",
+    "static/js/2.f0fb4c26.chunk.js",
+    "static/css/main.0a27029b.chunk.css",
+    "static/js/main.5db2e55f.chunk.js"
   ]
 }

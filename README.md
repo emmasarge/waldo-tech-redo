@@ -1,59 +1,77 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Waldo Tech Test
 
-Welcome emmasarge,
+## Objective: To create a copy of UX predesign using Tailwind CSS and React.
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+* You can see the live app [here](https://emmasarge.github.io/waldo-tech-redo/)
+* Github pages [here](https://github.com/emmasarge/waldo-tech-redo)
 
-## Gitpod Reminders
+* Please refer to my initial attempt on ['Waldo-Tech-Test'](https://github.com/emmasarge/waldo-tech-test) to see my commits. Due to an issue with deploying and taking some bad internet advice, I restarted with a new repository to deploy as soon as I created the app. I have not experienced this before, definitely will not happen again but due to time pressure I transferred all of my code to this new repo.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+---
+## Installation and Setup Instructions
 
-A blue button should appear to click: _Make Public_,
+#### Example:  
 
-Another blue button should appear to click: _Open Browser_.
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Installation:
 
-A blue button should appear to click: _Make Public_,
+`npm install`  
 
-Another blue button should appear to click: _Open Browser_.
+Direct the app:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+`cd waldo-tech-redo`
 
-To log into the Heroku toolbelt CLI:
+To Run Test Suite:  
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+`npm test`  
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+To Start Server:
 
-## Updates Since The Instructional Video
+`npm start` or `yarn start` 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+To Deploy :
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+`yarn run deploy`
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ 
 
 ---
 
-Happy coding!
+## Issues
+---
+* I had issues with deploying my original app. I regret not deploying immediately after initialising app. I created a new app and transferred my [orginal code.](https://github.com/emmasarge/waldo-tech-test) This was not an ideal solution but you can follow my commit path which is available in the original repository. I need to become more efficient at React App Deployment but I am confident I have it now. 
+
+* I created a carousel for the Sales Heros. I was trying to find a template from Tailwind as I normally use Bootstrap or Materialize so I tried using React to create the sliding images instead as I was using sections rather than images. I did find an alternative to the indicators, the arrows, as I needed more time to figure out how to use the eclipse circles as buttons to change the page. I was using Chrome Dev Tools to look at the Waldo site to check this out.
+
+* The right side of the hero image is not how I would prefer it. I individually altered each image to make it as similar as possible to the previous image postion-wise. I want to make the image and ecclipse separate rows to align better. This is something I will continue to figure out whilst becoming more familiar with Tailwind. This is a layout issue. 
+
+* General cleanup. I used Tailwind and custom css, there is some redundant styling I need to remove. Also, I need to move the Body.Css into the App.Css because I used the Body.js initially to experiment how I will create the slide image with text the best way to make a carousel effect. 
+
+
+## Testing 
+---
+* React Jest installed in CLI identified errors and prohibited project from displaying when errors are found
+* Chrome developer Tools
+
+
+
+## References for Code
+---
+
+* [Brian Design: Youtube for the Carousel](https://www.youtube.com/watch?v=l1MYfu5YWHc)
+* [GitHub to for deployment protocol](https://github.com/gitname/react-gh-pages)
+
+
+---
+## Future Goals
+* I would like to fix the layout of the right side of the slider image.
+* I want to make my code more efficient and clean. I feel I have a little too much going on that could be cut down.
+* I would like to understand creating the ecclipse buttons.
+* Continue to apply React to more projects to become more fluent and get more familiar with Tailspin.
+* DEPLOY IMMEDIATELY AFTER initialising app!!
+
+
+#### 

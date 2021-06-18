@@ -1,4 +1,4 @@
-# Waldo Tech Test
+# Waldo Tech Test by Emma Sargeant
 
 ## Objective: To create a copy of UX predesign using Tailwind CSS and React.
 ---

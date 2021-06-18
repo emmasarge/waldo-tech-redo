@@ -46,7 +46,7 @@ To Deploy :
 
 * I created a carousel for the Sales Heros. I was trying to find a template from Tailwind as I normally use Bootstrap or Materialize so I tried using React to create the sliding images instead as I was using sections rather than images. I did find an alternative to the indicators, the arrows, as I needed more time to figure out how to use the eclipse circles as buttons to change the page. I was using Chrome Dev Tools to look at the Waldo site to check this out.
 
-* The right side of the hero image is not how I would prefer it. I individually altered each image to make it as similar as possible to the previous image postion-wise. I want to make the image and ecclipse separate rows to align better. This is something I will continue to figure out whilst becoming more familiar with Tailwind. This is a layout issue. 
+* The right side of the hero image is not how I would prefer it. I individually altered each image to make it as similar as possible to the previous image postion-wise. I want to make the image and ecclipse separate rows to align better. This is something I will continue to figure out whilst becoming more familiar with Tailwind. This is a layout issue. Adjusting this images to be more uniform will be very benficial for the mobile view.
 
 * General cleanup. I used Tailwind and custom css, there is some redundant styling I need to remove. Also, I need to move the Body.Css into the App.Css because I used the Body.js initially to experiment how I will create the slide image with text the best way to make a carousel effect. 
 

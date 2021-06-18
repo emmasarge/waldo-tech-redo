@@ -67,15 +67,12 @@ To Deploy :
 
 ---
 ## Future Goals
-* I would like to fix the layout of the right side of the slider image.
+* I would like to fix the layout of the right side of the slider image. Maybe I would add slide transition animation too, I would keep it simple though.
 * I want to make my code more efficient and clean. I feel I have a little too much going on that could be cut down.
 * I would like to understand creating the ecclipse buttons.
 * Continue to apply React to more projects to become more fluent and get more familiar with Tailspin.
 * DEPLOY IMMEDIATELY AFTER initialising app!!
 
 
-<<<<<<< HEAD
-#### 
-=======
-#### 
->>>>>>> e89dc7b6e3a1d61574930a93556917d57f1ae3c1
+
+

@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Waldo Tech Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective: To create a copy of UX predesign using Tailwind CSS and React.
+---
 
-## Available Scripts
+* You can see the live app [here](https://emmasarge.github.io/waldo-tech-redo/)
+* Github pages [here](https://github.com/emmasarge/waldo-tech-redo)
 
-In the project directory, you can run:
+* Please refer to my initial attempt on ['Waldo-Tech-Test'](https://github.com/emmasarge/waldo-tech-test) to see my commits. Due to an issue with deploying and taking some bad internet advice, I restarted with a new repository to deploy as soon as I created the app. I have not experienced this before, definitely will not happen again but due to time pressure I transferred all of my code to this new repo.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
+## Installation and Setup Instructions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Example:  
 
-### `yarn test`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation:
 
-### `yarn build`
+`npm install`  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Direct the app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`cd waldo-tech-redo`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To Run Test Suite:  
 
-### `yarn eject`
+`npm test`  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To Start Server:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start` or `yarn start` 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To Deploy :
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`yarn run deploy`
 
-## Learn More
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Issues
+---
+* I had issues with deploying my original app. I regret not deploying immediately after initialising app. I created a new app and transferred my [orginal code.](https://github.com/emmasarge/waldo-tech-test) This was not an ideal solution but you can follow my commit path which is available in the original repository. I need to become more efficient at React App Deployment but I am confident I have it now. 
 
-### Code Splitting
+* I created a carousel for the Sales Heros. I was trying to find a template from Tailwind as I normally use Bootstrap or Materialize so I tried using React to create the sliding images instead as I was using sections rather than images. I did find an alternative to the indicators, the arrows, as I needed more time to figure out how to use the eclipse circles as buttons to change the page. I was using Chrome Dev Tools to look at the Waldo site to check this out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* The right side of the hero image is not how I would prefer it. I individually altered each image to make it as similar as possible to the previous image postion-wise. I want to make the image and ecclipse separate rows to align better. This is something I will continue to figure out whilst becoming more familiar with Tailwind. This is a layout issue. 
 
-### Analyzing the Bundle Size
+* General cleanup. I used Tailwind and custom css, there is some redundant styling I need to remove. Also, I need to move the Body.Css into the App.Css because I used the Body.js initially to experiment how I will create the slide image with text the best way to make a carousel effect. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Testing 
+---
+* React Jest installed in CLI identified errors and prohibited project from displaying when errors are found
+* Chrome developer Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## References for Code
+---
 
-### Deployment
+* [Brian Design: Youtube for the Carousel](https://www.youtube.com/watch?v=l1MYfu5YWHc)
+* [GitHub to for deployment protocol](https://github.com/gitname/react-gh-pages)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+---
+## Future Goals
+* I would like to fix the layout of the right side of the slider image.
+* I want to make my code more efficient and clean. I feel I have a little too much going on that could be cut down.
+* I would like to understand creating the ecclipse buttons.
+* Continue to apply React to more projects to become more fluent and get more familiar with Tailspin.
+* DEPLOY IMMEDIATELY AFTER initialising app!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### 

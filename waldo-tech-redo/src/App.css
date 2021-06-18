@@ -102,3 +102,103 @@
         width: 100%;
     }
 }
+
+/*----Body.js for Slides.js---*/
+
+.bg-color {
+    background-color: #EAE6DD;
+}
+
+
+.top-text {
+     margin-top: 80px;
+}
+
+.top-text h1 {
+    font-family: FSLola-Medium;
+    font-weight: 500;
+}
+
+.top-text .bold {
+    font-family: FSLola-Medium;
+    font-weight: 500;
+}
+.left-text h1 {
+    font-size: 2em;
+    margin: 50px;
+    text-align: left;
+
+}
+
+.left-text p {
+    margin-top: 30px;
+    margin-left:50px;
+    text-align: left;
+}
+
+.price-info {
+    margin-left: 40px;
+    margin-top: 60px;
+    max-width: 400px;  
+   
+}
+
+.price-table {
+    text-align: left;
+    width: 100%;
+}
+
+.table-left {
+    border-right: #0032A0 2px solid;
+    padding-right: 10px;
+}
+.table-right {
+    padding-left: 30px;
+}
+
+
+.button-start {
+    padding: 15px 80px 15px 80px;
+    background-color:#FE5000;
+    color: #FFFF;
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+
+}
+
+.button-start:hover {
+    background-color: #DA291C;
+    transition: all 0.7s ease-in-out;
+}
+
+.right-image{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.right-image table{
+    height: 50vh;
+}
+
+
+@media screen and (max-width: 800px) {
+    
+   .left-text {
+       width: 95%;
+       margin-left: 0!important;
+   }
+   .button-start {
+       width: 100%;
+       margin: 20px;
+       margin-left: 10px;
+   }
+   .price-table {
+        margin-bottom: 20px;
+   }
+    
+} 

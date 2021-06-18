@@ -1,4 +1,4 @@
-# Waldo Tech Test
+# Waldo Tech Test by Emma Sargeant
 
 ## Objective: To create a copy of UX predesign using Tailwind CSS and React.
 ---
@@ -74,4 +74,8 @@ To Deploy :
 * DEPLOY IMMEDIATELY AFTER initialising app!!
 
 
+<<<<<<< HEAD
 #### 
+=======
+#### 
+>>>>>>> e89dc7b6e3a1d61574930a93556917d57f1ae3c1
